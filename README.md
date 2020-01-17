@@ -91,7 +91,7 @@ hace 6 días
 Instead of passing the locale to each pipe via `options` you can set it globally in one single step by overriding the default `DateFnsConfiguration` implementation:
 
 ```typescript
-import { DateFnsModule } from 'ngx-date-fns';
+import { DateFnsModule, DateFnsConfigurationService }  from 'ngx-date-fns';
 import { fr } from "date-fns/locale";
 
 const frenchConfig = new DateFnsConfigurationService();
